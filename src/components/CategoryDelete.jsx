@@ -44,9 +44,7 @@ const CategoryDelete = ({ open, handleOpen, itemId, setChange }) => {
     }
     return (
         <div>
-            <Button onClick={handleOpen} variant="gradient">
-                Open Dialog
-            </Button>
+            
             <Dialog  open={open} handler={handleOpen} className='p-3 mx-auto my-10 bg-white rounded-md flex flex-col gap-3 w-[300px] h-max border-[1px] border-red-500 text-center'>
                 <DialogHeader>Are you sure this category deleted?</DialogHeader>
                 <DialogFooter className='flex gap-2 items-center'>

@@ -48,7 +48,7 @@ const ProductUpdate = ({ setChange, open, handleOpen, itemId }) => {
     }
     return (
         <>
-            <Button onClick={handleOpen}>Message Dialog</Button>
+            
             <Dialog open={open} size="xs" handler={handleOpen} className='w-[300px] h-max p-3 bg-white border-[1px] border-blue-500 rounded-md mx-auto my-10'>
                 <div className="flex items-center justify-between">
                     <DialogHeader className="flex flex-col items-start">
